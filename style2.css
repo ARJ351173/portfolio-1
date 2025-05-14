@@ -1,0 +1,96 @@
+/*typography*/
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap'); */
+
+body{
+    /* font-family: 'roboto', sans-serif; */
+    font-size: medium;
+    background-color: lightgray;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p{
+    /* font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    word-spacing: 15px; */
+    /* text-shadow: 2px 2px 5px rgba(0,0,0,0.5);horizontal vertical blur color */
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.8);
+  }
+  
+  .logo {
+    display: block;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    
+    
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: underline;
+    transition: all 1s ease;
+  }
+
+  #div1{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.8);
+  }
+
+  .menu a:hover {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .p2{
+    margin: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .p1{
+    margin: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    font-family: 'Times New Roman', Times, serif;
+  }
